@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="stylesheet" href="HomePage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="About.html"><img src="logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html" style="background: white; color: black;">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Programs For 2021</h1>
+
+    </section>
+
+    <!-- ---------- blog page content -------- -->
+
+    <section>
+        
+        <div class="blog-content">
+
+            <div class="row">
+                <div class="blog-left">
+                    <img src="certificate.jpg">
+                    <h2>Our Certificate & Online Programs For 2021</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id culpa tenetur dolorum voluptatum deleniti qui officiis, ea quaerat, provident, quasi commodi porro necessitatibus beatae tempore quos vel! Nisi maiores, atque quod doloremque earum culpa, iure perspiciatis rerum modi quis amet saepe suscipit rem accusantium. Nulla autem laborum reiciendis qui labore.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorem voluptates cum aliquid earum nemo laborum aut quaerat, doloremque ut dolorum consequatur iusto placeat sed blanditiis culpa sunt possimus, quisquam exercitationem dolore saepe suscipit ullam est reprehenderit. Soluta rerum eaque alias quasi saepe! Facilis labore eaque, a dolorem est incidunt delectus quos cum, fugiat itaque quis. Fugit accusamus corporis mollitia nulla vel repellat magni quam laudantium tempora numquam, laborum ut modi eaque ad quo soluta quisquam voluptatibus fuga recusandae. Asperiores.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusantium veritatis, repellendus enim totam amet hic praesentium accusamus officiis architecto eveniet et laboriosam molestias ad sunt nemo. Itaque modi quasi repudiandae mollitia earum ab accusantium, deleniti perferendis quia harum veniam! Impedit quam minima debitis ipsa accusamus nesciunt aliquam deserunt? Nihil odit eaque quaerat impedit soluta inventore sit! Fuga, rem dolore?</p>
+                    <br>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum architecto sapiente porro provident non unde tempora dolore molestias. Amet, quidem rerum! Officiis at explicabo quam qui itaque vero obcaecati iste veniam illo. Ratione consequuntur corporis amet molestias, quas deleniti est, magni maiores ipsa dicta, cum eum minima dignissimos eos ab.</p>
+
+                    <div class="comment-box">
+
+                        <h3>Leave a comment</h3>
+
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>Computer Science</span>
+                        <span>34</span>
+                    </div>
+                    <div>
+                        <span>AutoCAD</span>
+                        <span>42</span>
+                    </div>
+                    <div>
+                        <span>Journalism</span>
+                        <span>22</span>
+                    </div>
+                    <div>
+                        <span>Commerec</span>
+                        <span>30</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+    <!-- ----------- Footer ---------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque exercitationem officia ab <br> possimus
+            iusto quo error corporis reiciendis cupiditate beatae.</p>
+        <div class="icons">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+        </div>
+        <p>Made with &#10084; by Pranjal Barnwal.</p>
+    </section>
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px  ";
+        }
+
+    </script>
+
+    <!-- <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script> -->
+
+</body>
+
+</html>
